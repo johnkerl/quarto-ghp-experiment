@@ -1,0 +1,41 @@
+project:
+  type: website
+  #output-dir: _site
+  output-dir: "../docs"
+
+format:
+  html:
+    toc: true
+    theme: 
+      light: [lumen]
+    fontsize: 1rem
+    code-copy: true
+    code-overflow: wrap
+
+website:
+  page-navigation: true
+  navbar:
+    background: light
+    foreground: dark
+    title: "Title here"
+    collapse-below: lg
+    left:
+      - text: "Home page"
+        href: "https://acme.com"
+      - text: "Contact us"
+        href: "https://acme.com/contact"
+
+  sidebar:
+    - id: get-started
+      title: "Getting Started"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - text: "Index"
+          href: "index.md"
+
+        - text: "Page One"
+          href: "page1.md"
+        - text: "Page Two"
+          href: "page2.md"
