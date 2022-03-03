@@ -2,6 +2,7 @@
 
 * This repo demonstrates a problem I'm having with Quarto and GitHub Pages.
 * Structure of the repo includes a `code` directory -- stubbed out for this example but suffice it to say that a main use-case for me is going to be having repos with non-trivial amounts of code, along with docs documenting that code.
+* Structure of the repo also includes a `docs-source` directory -- which is also stubbed out for this example but the idea is that a code repo will have documentation source in it which will go here.
 * I'm following https://quarto.org/docs/websites/publishing-websites.html#github-pages
 
 # The problem
